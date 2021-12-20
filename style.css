@@ -1,4 +1,63 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:black;
+    font-family:arial;
+    color:white
+}
 
+h1{
+    color:grey;
+    font-family:verdana
+}
 
+.maindiv {
+    background-color: white;
+    color: black;
+    width: 300px;
+    padding: 20px;
+    border-radius: 25px;
+    margin:20px auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.maindiv label{
+    font-size: 85%;
+    margin-right: 16px;
+}
+
+.maindiv input,
+.maindiv select{
+    margin: 8px 4px;
+    padding: 8px;
+    flex-grow: 1;
+}
+
+#rate_val{
+    margin-left: 16px;
+    font-size: 85%;
+}
+#result b,
+#result span {
+    display: block;
+    margin: 8px 4px;
+}
+#result span mark {
+    padding: 2px 4px;
+}
+
+#submit_btn{
+    padding: 11px 32px;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+    border-color: #0075ff;
+    font-size: 1rem;
+    background-color: #0075ff;
+    color: #fff;
+    border: 1px solid #999;
+}
